@@ -1,4 +1,4 @@
-##Preview
+# Preview
 ![image](https://github.com/Mohankrishna1201/Zocket/assets/121288107/d1a906b2-31f9-40ca-98da-62a6736a7dab)
 
 # Getting Started with Create React App
