@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+.component {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+@media (max-width: 600px) {
+  .component {
+    width: 100%;
+    padding: 10px;
+  }
+}
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: -4px;
+}
+.placeholder {
+    border-radius: 50%;
+    background-color: gray;
+    height: 38px;
+    width: 38px;
+}
+
+.placeholder-img {
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+}
+
+.main-img {
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    display: none;
+}
+
+.main-img.visible {
+    display: block;
+}
+
+.main-img.hidden {
+    display: none;
+}
+
+.error-img {
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+}
+.images-cluster {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    column-gap: 0px;
+    row-gap: 0px;
+    align-content: center;
+}
+
+.placeholder-circle {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: gray;
+    border-width: 1px;
+    border-style: dotted;
+    border-color: white;
+}
+
+.component-container {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 80px;
+    padding: 16px;
+    border-radius: 10px;
+
+}
+
+.component-content {
+    display: flex;
+    flex-direction: row;
+    column-gap: 28px;
+  
+}
+
+.component-text {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.component-name {
+    color: white;
+    font-size: 16px;
+    margin: 0;
+}
+
+.component-count {
+    color: gray;
+    font-size: 12px;
+    margin: 0;
+}
+
+.error-image {
+    height: 50px;
+    width: 50px;
+}
